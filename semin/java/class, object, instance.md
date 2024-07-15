@@ -46,7 +46,7 @@ ex) `object.field`, `object.method()`
 Wheel myWheel = new Wheel(50,"default");
 Car myCar = new Car(myWheel,5300,"benz");
 ```
-![alt text](object-ref.png)
+![alt text](img/object-ref.png)
 다음 상황에서 `myWheel` 인스턴스를 만들면서 jvm 메모리에 올라가면
 
 `myCar`에선 `myWheel`을 복제하는 대신 참조하여, 메모리를 절약한다.
